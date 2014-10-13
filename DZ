@@ -1,16 +1,30 @@
-public class
-  public static void main(String[] args)
-    int a = 12
-    int b = 23
-    int c = 45
+public class DZ {
+  public static void main(String[] args)  {
+  // 1.1
+    int a1 = 12
+    int b1 = 23
+    int c1 = 45
     int res = a - b - b + c - c * a
   System.out.println(res);
-  String s1 = "my name is";
-  String name = " Petr";
-  int year = 1703;
+  // 1.4
+   String ss1 = "Ya";
+   String s2 = "Aleksey";
+  System.out.println(ss1 + " " + s2);
+  // 2.1
+   String result = "результат";
+   int a = 10;
+   int b = 20;
+   int c = b/a;
+   int d = (int) Math.random()*10;
+   int g = c*d;
+  System.out.println(result + " " + g);
+  // 2.2
+   String s1 = "my name is";
+   String name = " Petr";
+   int year = 1703;
   System.out.println(s1 + "" + name + "" + year);
-
-
+     }
+}
 
 
 
